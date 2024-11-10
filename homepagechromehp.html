@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+ <head>
+<meta content='width=device-width,initial-scale=1.0' name='viewport'/>
+     <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/> 
+  <b:if cond='data:blog.isMobile'> 
+   <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/> 
+  <b:else/>
+      <meta content='width=768' name='viewport'/> 
+    </b:if> 
+  <b:skin><![CDATA[
+   /* 
+    body { 
+     font-family: 'Poppins', sans-serif;
+     color: $(body.text.color); 
+     background: $(body.background); ; 
+     padding: 0 $(content.shadow.spread) $(content.shadow.spread) $(content.shadow.spread); 
+     $(body.background.override) margin: 0; 
+     padding: 0; 
+    }
+       
+  ]]></b:skin>
+
+   <style>  
+html {
+  scroll-behavior: smooth;
+}  
+body{
+  font-family: &#39;Poppins&#39;, sans-serif;
+  max-width: 720px;
+  background-color:#131313;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerprofile{
+    max-width: 720px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;  
+    align-items: left;
+    margin-bottom: -50px;
+}  
+.headerprofile h2{
+  font-size: 50px;
+  margin-bottom: -20px;
+  color: #fff;
+  font-weight: 800;
+  margin-top: -2rem;
+}
+.headerprofile p{
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 30px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* Site Container */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c1c;
+    border-radius: 30px;
+    padding: 20px 40px;
+    margin-top: 4rem;
+}
+.item {
+    text-align: center;
+    color: white;
+}
+.icon {
+    background-color: #333;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}          
+
+/* Searchbar */  
+.search-bar {
+    background-color: #3C3A41;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    text-align: left;
+    margin-top: 7rem;
+}
+
+</style>   
+<style>
+/* Font Face */
+@import url(&#39;https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&#39;);
+</style>
+
+ </head>
+ <body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
+  <b:section class='main' id='main' showaddelement='yes'/>
+
+<!-- Header Nama dan salam -->
+
+<div class='headerprofile'>
+  <p>Selamat Malam,</p>
+  <h2>Aditya Januardi</h2>
+</div>
+
+<!-- Header Nama dan salam end -->
+
+
+<!-- searchbox -->
+<input type="text" class="search-bar" placeholder="Search or type URL" name="q">
+<!-- searchbox end -->
+
+
+<!-- container list aplikasi 1 -->
+
+<div class="container">
+    <div class="item">
+    <a href="http://192.168.18.1/" target="blank">
+        <div class="icon">
+        <img alt="Icon for NAS" height="30" src="https://png.pngtree.com/png-clipart/20240808/original/pngtree-wifi-router-vector-icon-png-image_15724810.png" width="30"/>
+        </div>
+    <div>Router</div>
+    </a>
+   </div>
+
+    <div class="item">
+    <a href="#" target="blank">
+        <div class="icon">
+        <img alt="Icon for NAS" height="30" src="https://storage.googleapis.com/a1aa/image/8xhzbzXevrWTG6YbdgfLMefBryIrbW4umgAMydwB7wB7JnedC.jpg" width="30"/>
+        </div>
+    <div>WeTTY</div>
+    </a>
+   </div>
+
+    <div class="item">
+    <a href="http://192.168.18.55:5230/" target="blank">
+        <div class="icon">
+        <img alt="Icon for NAS" height="30" src="https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Memos/icon.png" width="30"/>
+        </div>
+    <div>Memos</div>
+    </a>
+   </div>
+
+    <div class="item">
+    <a href="http://192.168.18.55:32400/web" target="blank">
+        <div class="icon">
+        <img alt="Icon for NAS" height="30" src="https://i.ibb.co.com/yfzDTkS/png-clipart-macos-app-icons-plex-media-server-removebg-preview.png" width="30"/>
+        </div>
+    <div>Plex</div>
+    </a>
+   </div>      
+
+    <div class="item">
+    <a href="http://192.168.18.55/admin/login.php" target="blank">
+        <div class="icon">
+        <img alt="Icon for NAS" height="30" src="https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/icon.png" width="30"/>
+        </div>
+    <div>Pihole</div>
+    </a>
+   </div>
+</div> 
+
+<!-- container list aplikasi 1 end -->
+
+
+<!-- container list aplikasi 2 -->
+
+<div class="container">
+    <div class="item">
+    <a href="http://192.168.18.55:500/" target="blank">
+        <div class="icon">
+        <img alt="Icon for NAS" height="30" src="https://static-00.iconduck.com/assets.00/openmediavault-icon-2048x2048-v4q84s6b.png" width="30"/>
+        </div>
+    <div>Nas</div>
+    </a>
+   </div>
+</div> 
+
+<!-- container list aplikasi 2 end -->
+  
+ </body>
+</html>
